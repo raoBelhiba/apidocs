@@ -35,6 +35,19 @@ Authorization: TermlyV1, PublicKey=<partner public key>, Signature=<calculated s
 
 `PublicKey` is discussed in detail [here](keys.md). And `Signature` is discussed in detail [here](signature.md).
 
+## `Responses`
+
+Many endpoints allow batch requests and the following responses are possible:
+
+`200` Request was successful for every item in the batch.
+
+`207` Request was successful for at least one item in the batch.
+
+`400` Request was unsuccessful for every item in the batch.
+
+`500` Request encountered an internal error. Contact Termly support.
+
+
 # GET requests
 
 In addition to the 2 headers described above, a `GET` can be made with a `query` or `scrolling` query string parameter. These 2 keys are mutually exclusive. A `GET` request will be rejected if both are found.
