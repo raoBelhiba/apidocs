@@ -16,7 +16,7 @@ Updates the banner for a website. The body has the following shape:
     "personalized_content": "<bool>",
     "running_targeted_advertising": "<bool>",
     "share_data_to_3rd_party": "<bool>",
-    "selected_languages": ["<enum{'el', 'hu', 'pt', 'sv', 'it', 'es', 'en-gb', 'da', 'fi', 'nl', 'fr', 'de', 'pl'}>"],
+    "selected_languages": ["<enum{'el', 'hu', 'pt', 'sv', 'it', 'es', 'en-gb', 'da', 'fi', 'nl', 'fr', 'de', 'pl', 'cs', 'sk'}>"],
     "policy_settings": {
       "enable_privacy_policy_url": "<bool>",
       "privacy_policy_url": "<string>"
